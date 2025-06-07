@@ -1,0 +1,18 @@
+.ancho {
+  width: 100%;
+}
+
+.ancho-circulo {
+  width: 100px;
+  height: 100px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 576px) {
+  .ancho-circulo {
+    height: 50px !important;
+    width: 50px;
+    font-size: 1rem;
+
+  }
+}

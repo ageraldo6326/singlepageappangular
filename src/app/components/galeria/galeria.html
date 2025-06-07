@@ -1,0 +1,12 @@
+<div class="mt-5 bg-light" id="galeria">
+  <div class="container">
+    <h2 class="text-center">Galería Familiar</h2>
+    <p class="text-muted text-center">Capturando nuestros momentos juntos favoritos</p>
+
+    <div class="row">
+      <div class="col-md-4 mb-4" *ngFor="let image of galeriaFotos; let i = index" [hidden]="i >= 9">
+        <app-card-imagenes [image]="image"></app-card-imagenes>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+.ancho {
+  width: 338px;
+  height: 192px;
+}
+
+@media (max-width: 576px) {
+  .ancho {
+    width: 100% !important;
+  }
+}

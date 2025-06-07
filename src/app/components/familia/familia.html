@@ -1,0 +1,16 @@
+<div class="bg-white">
+  <div class="row mt-4">
+    <div class="col h1 text-center mt-4">
+      Conoce a nuestra familia</div>
+  </div>
+  <div class="row mb-2">
+    <div class="col text-muted text-center">Cada uno de nosotros aporta algo especial a nuestra dinámica familiar.</div>
+  </div>
+  <div class="d-flex justify-content-center flex-wrap gap-3">
+
+    <div *ngFor="let miembro of miembrosFamilia">
+      <div class="text-center"><app-card [titulo]="miembro.titulo" [nombre]="miembro.nombre" [texto]="miembro.texto"
+          [edad]="miembro.edad" [image]="miembro.image"></app-card>
+      </div>
+    </div>
+  </div>

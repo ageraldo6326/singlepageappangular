@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.imagen {
+  border-radius: 75%;
+  border: 1px black solid;
+}
+
+.central {
+  text-align: center;
+}
+
+.encabezado {
+  margin: 0px;
+  padding: 0px;
+  font-size: 26px;
+}

@@ -1,0 +1,26 @@
+.imagen {
+  border-radius: 75%;
+  border: 1px black solid;
+}
+
+.central {
+  text-align: center;
+}
+
+.encabezado {
+  margin: 0px;
+  padding: 0px;
+  font-size: 26px;
+}
+
+.parrafo {
+  font-size: 24px;
+  color: grey;
+}
+
+.contenedor-acerca {
+ display: flex;
+ width: 80%;
+ max-width: 1000px;
+ justify-content: space-between;
+}
